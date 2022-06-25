@@ -1,0 +1,92 @@
+<!Doctype html>
+<html> 
+ <head> 
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Ubuntu" rel="stylesheet">
+  <link href="index1.css" rel="stylesheet" type = "text/css">
+  <style>
+      h1{
+        color: red;
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 4px 4px black;
+          }
+          h6{
+            font-size: 30px;
+            font-family: courier;
+            text-align: center;
+            color: purple;
+            
+            
+            
+      
+          }
+          p{
+            color: purple;
+            font-size: 30px;
+            background-Color: rgb(250, 165, 212);
+            border: 5px solid black;
+            padding: 10px;
+            text-align: center;
+          }
+    body{
+      background-Color: rgb(176, 245, 66);   }
+      
+      a{
+        color: black;
+        background-color: rgb(66, 221, 245);
+        border: 2px solid black;
+        text-decoration: none;
+        text-align: center;
+        padding: 15px;
+        font-size: 30px;
+        text-shadow: 1px 1px red;
+        
+      
+      }
+      #para {
+        text-alignment: center;
+        background-color: rgb(176, 245, 66);
+        border: none;
+        color: black;
+      }
+      
+</style>
+<script src="index.js" type = "text/javascript" charset="utf8"></script>
+ </head> 
+ <body> 
+  <div id="loaded"> 
+    <button onclick="proceed()"> Click To Proceed</button> 
+  </div> 
+  <audio controls="" style=" display:none;" loop="" id="a"> 
+    <source src="https://www.dropbox.com/s/zokdf4ejvc67w8c/y2mate.com%20-%20Best%20Happy%20Birthday%20To%20You%20_%20Happy%20Birthday%20Songs%202020_nl62hhiBMOM.mp3?dl=1" type="audio/mpeg"> 
+  </audio>
+  <div id="container">
+    <h1> HAPPY BIRTHDAY SUSSIE ABENA ADDO</h1> 
+      <p>Today is the birthday of that special person who
+      spread joy and positivity all around. May your
+    birthday and your life be as wonderful as you are!</p> 
+      <p style="color: green;">The little time spent together
+      are memorable one and i smile over them 🙂 always when i remember.
+      Am glad there are more exciting moments coming.
+      Happy Birthday My Dearest 🌹❤️.</p> 
+      <p><img src="https://i.pinimg.com/originals/91/dd/b8/91ddb8751920595dfde2515820730482.gif" alt="Birthday cake" style="width:100%;height:500px;"> <br>⬇️</p> 
+      <p id="para" onclick="surprise()"><a href="picz.html">SURPRISE </a> </p> 
+      <p id="para">👆🏻<br>Tap the SURPRISE button to see a surprise.</p> 
+      <h6>Happy birthday Lady Sussie 💝💝</h6>
+  </div>
+   
+
+  <script>
+
+    function proceed(){
+        document.getElementById("loaded").style="display:none";
+        document.getElementById("container").style="display:block";
+        var obj=document.getElementById("a");
+            obj.play();
+    }
+  
+  </script>
+ 
+</body>
+</html>
